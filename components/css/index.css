@@ -1,0 +1,74 @@
+body {
+
+    margin-top: 2vh;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #383548;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.HeaderContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#Logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Logo img {
+    height: 20vh;
+}
+
+/* Main */
+
+.MainContainer {
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+
+}
+
+
+#MainContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#MainContent h4 {
+
+    text-align: center;
+    width: 40%;
+}
+
+#MainContent h2 {
+    text-align: center;
+    width: 50%;
+}
+
+#MainContent img {
+    height: 60vh;
+}
+
+
+#ImageComputer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#ImageComputer img {
+    height: 50vh;
+}
