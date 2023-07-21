@@ -14,22 +14,33 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    margin-top: 8vh;
 }
 
 #Logo {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;    
+    background-color: gainsboro;
+    border-radius: 10vh;
+    width: 10vh;
+    height: 10vh;
+    box-shadow: green 2px 2px 1px 2px ;
 }
 
 #Logo img {
     height: 20vh;
 }
 
+#Logo img:hover {
+    transform: scale(1.2);
+    transition: 1000ms;
+}
+
 /* Main */
 
 .MainContainer {
-    margin-top: 8vh;
+    margin-top: 10vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,11 +61,14 @@ body {
 
     text-align: center;
     width: 60%;
+    box-shadow: green 2px 2px 2px 2px;
 }
 
 #MainContent h2 {
     text-align: center;
     width: 80%;
+    box-shadow: green 2px 2px 2px 2px;
+    border-radius: 5vh;
 }
 
 #MainContent img {
