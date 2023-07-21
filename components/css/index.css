@@ -29,7 +29,7 @@ body {
 /* Main */
 
 .MainContainer {
-    margin-top: 10vh;
+    margin-top: 8vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -49,16 +49,16 @@ body {
 #MainContent h4 {
 
     text-align: center;
-    width: 40%;
+    width: 60%;
 }
 
 #MainContent h2 {
     text-align: center;
-    width: 50%;
+    width: 80%;
 }
 
 #MainContent img {
-    height: 60vh;
+    height: 50vh;
 }
 
 
@@ -71,4 +71,22 @@ body {
 
 #ImageComputer img {
     height: 50vh;
+}
+
+.FooterContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8vh;
+    flex-direction: column;
+    margin-bottom: 8vh;
+}
+.FooterContainer img {
+    height: 8vh;
+}
+
+#ImgContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 5vh;
 }
