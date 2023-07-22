@@ -1,5 +1,4 @@
 body {
-
     margin-top: 2vh;
     padding: 0;
     box-sizing: border-box;
@@ -7,6 +6,9 @@ body {
     color: white;
     font-size: large;
     font-weight: bold;
+    font-family: 'Tektur', sans-serif;
+    border: green 2px solid;
+    border-radius: 2vh;
 }
 
 .HeaderContainer {
@@ -26,15 +28,16 @@ body {
     width: 10vh;
     height: 10vh;
     box-shadow: green 2px 2px 1px 2px ;
+    
 }
 
 #Logo img {
-    height: 20vh;
+    height: 25vh;
 }
 
 #Logo img:hover {
     transform: scale(1.2);
-    transition: 1000ms;
+    transition: 2000ms;
 }
 
 /* Main */
@@ -45,8 +48,6 @@ body {
     align-items: center;
     justify-content: center;
     color: white;
-
-
 }
 
 
@@ -58,21 +59,31 @@ body {
 }
 
 #MainContent h4 {
-
     text-align: center;
     width: 60%;
-
 }
 
 #MainContent h2 {
     text-align: center;
     width: 80%;
-    box-shadow: green 2px 2px 2px 2px;
+    box-shadow: green 2px 2px 15px 2px;
     border-radius: 5vh;
+    background-color: aliceblue;
+    color: #383548;
 }
 
 #MainContent img {
     height: 50vh;
+    box-shadow: green 0px 0px 20px 2px;
+    border-radius: 2vh;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+    background-color: white;
+}
+
+#MainContent img:hover {
+    transform: scale(1.1);
+    transition: 2000ms;
 }
 
 
@@ -87,6 +98,26 @@ body {
     height: 50vh;
 }
 
+#Video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+#Video iframe {
+    width: 60%;
+    height: 40vh;
+    border-radius: 2vh;
+    box-shadow: green 2px 2px 25px 2px;
+}
+
+#Video:hover {
+    transform: scale(1.05);
+    transition: 2000ms;
+}
+
 .FooterContainer {
     display: flex;
     align-items: center;
@@ -95,6 +126,7 @@ body {
     flex-direction: column;
     margin-bottom: 8vh;
 }
+
 .FooterContainer img {
     height: 8vh;
 }
@@ -103,4 +135,9 @@ body {
     display: flex;
     flex-direction: row;
     gap: 5vh;
+}
+
+.FooterContainer img:hover {
+    transform: scale(1.3);
+    transition: 2000ms;
 }
