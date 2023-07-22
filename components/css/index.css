@@ -7,7 +7,7 @@ body {
     font-size: large;
     font-weight: bold;
     font-family: 'Tektur', sans-serif;
-    border: green 2px solid;
+    border: green 2px solid; 
     border-radius: 2vh;
 }
 
@@ -107,7 +107,7 @@ body {
 }
 
 #Video iframe {
-    width: 60%;
+    width: 70%;
     height: 40vh;
     border-radius: 2vh;
     box-shadow: green 2px 2px 25px 2px;
