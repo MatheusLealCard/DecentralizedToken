@@ -67,11 +67,9 @@ body {
     text-align: center;
     width: 80%;
     box-shadow: green 2px 2px 15px 2px;
-    border-radius: 5vh;
+    border-radius: 3vh;
     background-color: aliceblue;
     color: #383548;
-    font-size: medium;
-
 }
 
 #MainContent img {
