@@ -28,7 +28,6 @@ body {
     width: 10vh;
     height: 10vh;
     box-shadow: green 2px 2px 1px 2px ;
-    
 }
 
 #Logo img {
@@ -68,8 +67,9 @@ body {
     width: 80%;
     box-shadow: green 2px 2px 15px 2px;
     border-radius: 3vh;
-    background-color: aliceblue;
     color: #383548;
+    background: rgb(255,255,255);
+    background: linear-gradient(176deg, rgba(255,255,255,1) 0%, rgb(215, 203, 203) 103%);
 }
 
 #MainContent img {
@@ -78,7 +78,8 @@ body {
     border-radius: 2vh;
     margin-bottom: 5vh;
     margin-top: 5vh;
-    background-color: white;
+    background: rgb(207,212,217);
+    background: linear-gradient(183deg, rgba(207,212,217,1) 0%, rgba(66,214,51,1) 100%);
 }
 
 #MainContent img:hover {
